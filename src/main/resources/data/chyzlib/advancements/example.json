@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:spyglass"
+    },
+    "title": {
+      "translate": "advancements.adventure.spyglass_at_dragon.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.spyglass_at_dragon.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "spyglass_at_dragon": {
+      "trigger": "chyzlib:use_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "spyglass_at_dragon"
+    ]
+  ],
+  "rewards": {
+    "function": "chyzlib:hi"
+  },
+  "chyzlib:recallable": false
+}

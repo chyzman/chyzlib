@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "chyzlib",
+  "version": "${version}",
+  "name": "chyzlib",
+  "description": "",
+  "authors": ["chyzman"],
+  "contact": {
+    "repo": "https://github.com/chyzman/chyzlib"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/chyzlib/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": ["com.chyzman.chyzlib.client.ChyzlibClient"],
+    "main": ["com.chyzman.chyzlib.Chyzlib"]
+  },
+  "mixins": [
+    "chyzlib.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "custom": {
+    "loom:injected_interfaces": {
+      "net/minecraft/class_161" : ["com/chyzman/chyzlib/pond/AdvancementDuck"]
+    }
+  },
+  "accessWidener" : "chyzlib.accesswidener"
+}

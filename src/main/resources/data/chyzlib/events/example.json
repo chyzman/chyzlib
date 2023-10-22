@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "spyglass_at_dragon": {
+      "trigger": "chyzlib:use_item",
+      "conditions": {
+
+      }
+    }
+  },
+  "requirements": [
+    [
+      "spyglass_at_dragon"
+    ]
+  ],
+  "rewards": {
+    "function": "chyzlib:hi"
+  },
+  "chyzlib:recallable": false
+}

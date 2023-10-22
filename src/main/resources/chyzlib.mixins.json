@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.chyzman.chyzlib.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": ["AdvancementMixin", "AdvancementMixin$AdvancementBuilderMixin", "EntitySelectorMixin", "EntitySelectorReaderMixin", "ItemStackMixin", "PlayerAdvancementTrackerMixin", "ProjectileUtilMixin", "ServerAdvancementLoaderMixin"],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
