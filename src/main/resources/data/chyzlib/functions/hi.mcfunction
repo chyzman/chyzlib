@@ -1,1 +1,0 @@
-execute as @t[chyzlib_margin=0.1] as @s run effect give @s minecraft:glowing 1 0 true
